@@ -67,7 +67,7 @@ class Game
           puts "    Congratulations #{player.name},you win !     "
           puts "============================================="
           puts "Do you want to play again ? (Y or N)"
-          answer = gets.chomp
+          answer = gets.chomp.upcase
           if answer == "Y"
             Game.new.go
           else
