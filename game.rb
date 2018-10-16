@@ -82,8 +82,8 @@ class Game
         puts "            It's a draw :(             "
         puts "=============================================\n\n"
         puts "Do you want to play again ? (Y or N)"
-        answer = gets.chomp
-        if answer == "y"
+        answer = gets.chomp.upcase
+        if answer == "Y"
           Game.new.go
         else
           puts "Bye and hope we will see you again !"
