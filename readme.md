@@ -1,4 +1,4 @@
-h1# TIC TAC TOE GAME (ruby)
+# TIC TAC TOE GAME (ruby)
  
 made with : Nathaniel Debache, Nikita Vasiliev, Ysaline Macé, Arthur Mansuy
 
